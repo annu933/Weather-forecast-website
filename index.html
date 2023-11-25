@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+</head>
+
+<body style="background-color: white">
+    <!-- <img src="image/cloudy.png" alt=""> -->
+    <div class="row " >
+            
+        <div class="nav" id="nav">
+            <div><img src="navIcon.gif" alt="" class="gif"></div>
+            <div class="navTitle">MOUSAM VIBHAG</div>
+        </div>
+    </div>
+    <div class="container-fluid " id="weather"></div>
+            <div class="row" id="searchbar" >
+                <div class="row display row1st">
+                    <div class="col-md-4 Bar  "  >
+                        <form action="" >
+                            <input type="search" id="search" placeholder="search by city name" >
+                            <button class="btn btn-light" >search</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 Bar" >
+                        <div id="cityName">Raipur</div>
+                    </div>
+                    <div class=" col-md-4 DT Bar ">
+                        <div class="time" id="time">12:30pm <span id="am_pm">PM</span></div>
+                        <div class="date" id="date"> Monday,10 Jan</div>
+                    </div>
+                </div>
+                <div class=" row  tempData" id="tempData">      
+                    <div class="col-md-4 temp" id="temp">97°c</div>
+                    <div class="col-md-4 imgCondition" id="imgCondition" ></div>
+                    <div class="col-md-4 condition" id="condition">clear</div>
+                </div>
+            </div>
+        
+            <div class="row row1">
+                <div class="  row" id="current-weather">
+                    <div class="tempData ">
+                        <div class="dataBox" id="dataBox" >
+
+                            <div class="weather" >
+                                <div style=" text-align: center;">
+                                    <div><img src="humidity.png" alt="" >
+                                    <div>Humidity</div></div>
+                                </div>
+                                <div style="margin: 50px;" id="humidity">25%</div>
+                            </div>
+                            <div class="weather">
+                                <div style=" text-align: center;">
+                                    <div><img src="pressure.png" alt="" >
+                                    <div>Pressure</div></div>
+                                </div>
+                                <div style="margin: 50px;" id="pressure">25%</div>
+                            </div>
+                            <div class="weather">
+                                <div style=" text-align: center;">
+                                    <div><img src="windSpeed.png" alt="" >
+                                    <div>Wind Speed</div></div>
+                                </div>
+                                <div style="margin: 50px;" id="windSpeed">25%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        <div class="row cards row3" id="cards">
+            <div class="weatherItem">
+                <div>MONDAY</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div></div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Monday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Tuesday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Wednesday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Thursday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Friday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+            <div class="weatherItem">
+                <div>Saturday</div>
+                <div><img src="icon.png" alt="">
+                </div>
+                <div>27°c</div>
+            </div>
+        </div>
+        <div id="try"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- <script src="https://kit.fontawesome.com/212e6b4a0b.js" crossorigin="anonymous"></script> -->
+
+    
+</body>
+
+</html>
